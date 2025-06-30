@@ -1,0 +1,270 @@
+{
+  "id": "f1284595-4c65-4d9f-b9b0-dc2b1717ed08",
+  "version": "2.0",
+  "name": "flashcard belajar",
+  "url": "https://scaling-spoon-7vx79v5qj56j379q-5000.app.github.dev/",
+  "tests": [{
+    "id": "61c33787-4e83-42e9-ac96-8f4fb585f517",
+    "name": "flash card",
+    "commands": [{
+      "id": "74ddef83-e023-47b4-b491-8accc2f6d289",
+      "comment": "",
+      "command": "open",
+      "target": "https://scaling-spoon-7vx79v5qj56j379q-5000.app.github.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "718a47b8-6f34-44c2-861d-4976b704d0b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dede8f0-5b9a-44b5-862c-08f0290b9dc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#card-content-flip > .display-front > h2",
+      "targets": [
+        ["css=#card-content-flip > .display-front > h2", "css:finder"],
+        ["xpath=//div[@id='card-content-flip']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "074c7645-7130-44eb-ab8e-9a079ef7d7ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create Flashcard",
+      "targets": [
+        ["linkText=Create Flashcard", "linkText"],
+        ["css=.section:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create Flashcard')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/manage/add_flashcard')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create Flashcard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a5a57ba-dd15-41de-aaf1-d51fd3181e12",
+      "comment": "",
+      "command": "click",
+      "target": "id=category",
+      "targets": [
+        ["id=category", "id"],
+        ["name=category", "name"],
+        ["css=#category", "css:finder"],
+        ["xpath=//input[@id='category']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbfc397c-a087-4e7d-a907-3ab90ff8c0b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=category",
+      "targets": [
+        ["id=category", "id"],
+        ["name=category", "name"],
+        ["css=#category", "css:finder"],
+        ["xpath=//input[@id='category']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "ujian"
+    }, {
+      "id": "004eee2d-05a3-4698-8dcb-d0e4214757e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=question",
+      "targets": [
+        ["id=question", "id"],
+        ["name=question", "name"],
+        ["css=#question", "css:finder"],
+        ["xpath=//textarea[@id='question']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "596bdc66-e374-4d48-a654-294275643fd2",
+      "comment": "",
+      "command": "click",
+      "target": "id=question",
+      "targets": [
+        ["id=question", "id"],
+        ["name=question", "name"],
+        ["css=#question", "css:finder"],
+        ["xpath=//textarea[@id='question']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de75d64-33df-45ea-8bf9-dd839aae4112",
+      "comment": "",
+      "command": "type",
+      "target": "id=question",
+      "targets": [
+        ["id=question", "id"],
+        ["name=question", "name"],
+        ["css=#question", "css:finder"],
+        ["xpath=//textarea[@id='question']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "kalimat basmalah"
+    }, {
+      "id": "af547bb4-eceb-4b91-9969-f38835332a08",
+      "comment": "",
+      "command": "click",
+      "target": "id=answer",
+      "targets": [
+        ["id=answer", "id"],
+        ["name=answer", "name"],
+        ["css=#answer", "css:finder"],
+        ["xpath=//textarea[@id='answer']", "xpath:attributes"],
+        ["xpath=//div[3]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41309f20-ed74-474f-84b3-723c947c5448",
+      "comment": "",
+      "command": "type",
+      "target": "id=answer",
+      "targets": [
+        ["id=answer", "id"],
+        ["name=answer", "name"],
+        ["css=#answer", "css:finder"],
+        ["xpath=//textarea[@id='answer']", "xpath:attributes"],
+        ["xpath=//div[3]/textarea", "xpath:position"]
+      ],
+      "value": "bismillah"
+    }, {
+      "id": "81487f71-42eb-4551-ae0a-1766a5c1465e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edit-btn",
+      "targets": [
+        ["css=.edit-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Flashcard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "634f1b4f-3d0b-451f-affa-d452741e2435",
+      "comment": "",
+      "command": "click",
+      "target": "css=th:nth-child(1)",
+      "targets": [
+        ["css=th:nth-child(1)", "css:finder"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'Category')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be2ed4c-ff96-4aba-9b84-2f4dbe3ee2f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "818108f7-c6ac-49e3-95c9-af961c4749bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "ujian"
+    }, {
+      "id": "3f6d8d8f-4182-4a23-a959-ddcdfd0c69d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-image",
+      "targets": [
+        ["css=.search-image", "css:finder"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6520639a-a575-4235-8f9c-3d1258b339bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add Card",
+      "targets": [
+        ["linkText=Add Card", "linkText"],
+        ["css=.nav-tile:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Add Card')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar']/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/manage/add_flashcard')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Add Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "491410f2-f500-42ac-9d99-2a685e0a5065",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropbtn",
+      "targets": [
+        ["css=.dropbtn", "css:finder"],
+        ["xpath=//div[@id='nav-bar']/nav/div/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30741bff-204e-4b0b-9405-48adaa275d9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropbtn",
+      "targets": [
+        ["css=.dropbtn", "css:finder"],
+        ["xpath=//div[@id='nav-bar']/nav/div/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c707bd05-e750-4cda-b4c6-da75c7b9b60d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropbtn",
+      "targets": [
+        ["css=.dropbtn", "css:finder"],
+        ["xpath=//div[@id='nav-bar']/nav/div/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a166b559-718a-4f79-ad64-d44341a0e417",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropbtn",
+      "targets": [
+        ["css=.dropbtn", "css:finder"],
+        ["xpath=//div[@id='nav-bar']/nav/div/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e2913634-08d5-4ab9-a663-187b3220491f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["61c33787-4e83-42e9-ac96-8f4fb585f517"]
+  }],
+  "urls": ["https://scaling-spoon-7vx79v5qj56j379q-5000.app.github.dev/"],
+  "plugins": []
+}
